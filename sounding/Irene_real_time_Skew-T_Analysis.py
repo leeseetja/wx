@@ -31,7 +31,7 @@ v = data['v_wind']
 # The code below makes a basic skew-T plot using the MetPy plot module that contains a SkewT class.
 
 # Change default to be better for skew-T
-fig = plt.figure(figsize=(6, 9))
+fig = plt.figure(figsize=(9, 11))
 
 # Initiate the skew-T plot type from MetPy class loaded earlier
 skew = SkewT(fig, rotation=45)
@@ -61,4 +61,4 @@ plt.title('Date & Time: {} UTC'.format(dt), loc='center')
 # Use plt.show() if you want a pop up image when you run the script
 
 # Save the figure in current folder
-plt.savefig('Irene_real_time_Skew-T_Analysis.png',dpi=100,bbox_inches='tight')
+fig.savefig('Irene_real_time_Skew-T_Analysis.png',dpi=100,bbox_inches='tight')
