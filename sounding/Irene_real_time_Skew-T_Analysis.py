@@ -31,7 +31,7 @@ v = data['v_wind']
 # The code below makes a basic skew-T plot using the MetPy plot module that contains a SkewT class.
 
 # Change default to be better for skew-T
-fig = plt.figure(figsize=(4, 6))
+fig = plt.figure(figsize=(6, 9))
 
 # Initiate the skew-T plot type from MetPy class loaded earlier
 skew = SkewT(fig, rotation=45)
