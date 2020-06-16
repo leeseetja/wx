@@ -61,4 +61,4 @@ plt.title('Date & Time: {} UTC'.format(dt), loc='center')
 # Use plt.show() if you want a pop up image when you run the script
 
 # Save the figure in current folder
-plt.savefig('Irene_real_time_Skew-T_Analysis.png',dpi=300,bbox_inches='tight')
+plt.savefig('Irene_real_time_Skew-T_Analysis.png',dpi=100,bbox_inches='tight')
