@@ -10,7 +10,7 @@ from siphon.simplewebservice.wyoming import WyomingUpperAir
 # Plan to soft code these variables in future updates, 
 
 # to make it easy to access any station in South Africa for any given time
-dt = datetime(2020, 6, 23, 0)
+dt = datetime(2020, 6, 25, 0)
 station = 'FAIR'
 
 # Grab remote data from server at the University of Wyoming. This requires internet connection.
